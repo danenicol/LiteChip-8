@@ -1,5 +1,5 @@
-LDA FH /* Loads 0 into accumulator */
-MVI B EH /* Loads 1 into Register B */
+LDA FH /* Loads 0 into accumulator from memory location FH */
+MVI B EH /* Loads 1 into Register B from memory location EH */
 
 ADD B /* Adds 0 and 1 */ /* Accumulator now has new contents of 1*/
 OUT /* Outputs accumulator binary 1 onto binary display */
