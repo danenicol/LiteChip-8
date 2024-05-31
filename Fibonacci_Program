@@ -1,0 +1,22 @@
+LDA FH /* Loads 0 into accumulator */
+MVI B EH /* Loads 1 into Register B */
+
+ADD B /* Adds 0 and 1 */ /* Accumulator now has new contents of 1*/
+OUT /* Outputs accumulator binary 1 onto binary display */
+
+MOV A,B /* Copies accumulator data onto Register B */
+ADD B /* Adds 1 and 1 */ /* Accumulator now has new contents of 2*/
+OUT /* Outputs accumulator binary 2 onto binary display */
+
+MOV A,B /* Copies accumulator data onto Register B */
+ADD B /* Adds 1 and 2 */ /* Accumulator now has new contents of 3*/
+OUT /* Outputs accumulator binary 2 onto binary display */
+
+MOV A,B /* Copies accumulator data onto Register B */
+ADD B /* Adds 2 and 3 */ /* Accumulator now has new contents of 5*/
+OUT /* Outputs accumulator binary 5 onto binary display */
+
+HLT
+
+01H
+00H
