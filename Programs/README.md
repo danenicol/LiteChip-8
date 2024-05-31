@@ -1,0 +1,1 @@
+This Folder contains sample programs that you can run the LiteChip-8. Obviously to code these programs into the RAM, you need to follow operation instructions in the documentation and make sure that instructions and hexadecimal data is converted into binary. 
